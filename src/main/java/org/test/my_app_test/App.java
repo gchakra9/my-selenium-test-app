@@ -31,7 +31,7 @@ public class App {
 		// invoke implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 
-		driver.findElement(By.name("your_name")).sendKeys("Shubham");
+		driver.findElement(By.name("your_name")).sendKeys("Gourav");
 		
 		driver.findElement(By.name("phone_number")).sendKeys("999999999");
 		
